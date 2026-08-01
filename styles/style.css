@@ -1,1 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body { 
+  background-color: grey;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+
+#Container {
+  background-color : aliceblue;
+  padding: 48px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+#N1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+button {
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
